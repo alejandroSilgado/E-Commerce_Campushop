@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CampusShop</title>
+
+</head>
+<body>
+    <div class="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
+
+    <div class="barra-lateral">
+        <div>
+            <div class="nombre-pagina">
+                <ion-icon id="cloud" name="cloud-outline"></ion-icon>
+                <span>CampusShop</span>
+            </div>
+            <a href="carrito.html"class="boton">
+                <ion-icon name="cart-outline"></ion-icon>
+                <span class="compras">Tus Compras</span>
+            </a>
+        </div>
+
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a id="nuestros_productos" href="index.html">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <span>Nuestros Productos</span>
+                    </a>
+                </li>
+                <li>
+                    <a  href="ropa_mujer.html">
+                        <ion-icon name="woman-outline"></ion-icon>
+                        <span>Ropa Mujer</span>
+                    </a>
+                </li>
+                <li>
+                    <a  href="ropa_hombre.html">
+                        <ion-icon name="man-outline"></ion-icon>
+                        <span>Ropa Hombre</span>
+                    </a>
+                </li>
+                <li>
+                    <a  href="accesorios.html">
+                        <ion-icon name="watch-outline"></ion-icon>
+                        <span>Accesorios</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div>
+            <div class="linea"></div>
+
+            <div class="modo-oscuro">
+                <div class="info">
+                    <ion-icon name="moon-outline"></ion-icon>
+                    <span>Modo Oscuro</span>
+                </div>
+                <div class="switch">
+                    <div class="base">
+                        <div class="circulo">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="usuario">
+                <ion-icon name="person-circle-outline"></ion-icon>                <div class="info-usuario">
+                    <div class="nombre-email">
+                        <span class="nombre">Alejandro Silgado</span>
+                        <span class="email">alejandrosilgado20@gmail.com</span>
+                    </div>
+                    <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+        <section class="nuestros_productos" id="nuestros_productos ">
+            <h5>Carrito</h5>
+            <div class="contenedor-carrito">
+                    <div class="productocarrito">
+                        <div class="img-productocarrito">
+                            <img src="images/ropa_hombres/camisa1.jpg">
+                        </div>
+                        <div class="Discriminacion">
+                            <div class="NombreID">
+                            <h1>Nombre del producto</h1>
+                            <h1>Camisa Hombre Casual Manga </h1>
+                            </div>
+                            <div class="cantidad">
+                                <h1>cantidad: </h1>
+                                <button class="cantidad">1</button>
+                            </div>
+                            <div class="Precio">
+                                <h1>Precio</h1>
+                                <p>$45.000</p>
+                            </div>
+                            <div class="precio">
+                                <h1>Subtotal</h1>
+                                <p>$45.000</p>
+                            </div>
+                            <a href="CARRITOMENOS2.HTML"><i class="bi bi-trash3"></i></a>
+                        </div>
+                    </div>
+                    <div class="productocarrito">
+                        <div class="img-productocarrito">
+                            <img src="images/ropa_mujeres/camisa4.webp">
+                        </div>
+                        <div class="Discriminacion">
+                            <div class="NombreID">
+                                <h1>Nombre del producto</h1>
+
+                            <h1>Vestido Corto Juvenil Para Dama </h1>
+                            </div>
+                            <div class="cantidad">
+                                <h1>cantidad: 1 </h1>
+                                <button class="cantidad">1</button>
+                            </div>
+                            <div class="Precio">
+                                <h1>Precio</h1>
+                                <p>$90.999</p>
+                            </div>
+                            <div class="precio">
+                                <h1>Subtotal</h1>
+                                <p>$90.999</p>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="productocarrito">
+                        <div class="img-productocarrito">
+                            <img src="images/accesorios/1.jpeg">
+                        </div>
+                        <div class="Discriminacion">
+                            <div class="NombreID">
+                            <h1>Nombre del producto</h1>
+                            <h1>Camisa Hombre Casual Manga Larga</h1>
+                            </div>
+                            <div class="cantidad">
+                                <h1>cantidad: 1 </h1>
+                                <button class="cantidad">1</button>
+                            </div>
+                            <div class="Precio">
+                                <h1>Precio</h1>
+                                <p>$45.000</p>
+                            </div>
+                            <div class="precio">
+                                <h1>Subtotal</h1>
+                                <p>$45.000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contendor-botones-carrito">
+                            <a href="carrito_vacio.html"class="boton">
+                                <ion-icon name="cart-outline"></ion-icon>
+                                <span class="compras">vaciar carrito</span>
+                            </a>
+                        <div class="boton2">
+
+                        </div>
+                    </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
